@@ -1,0 +1,2 @@
+rootProject.name='ProductRecycler'
+include ':app'
