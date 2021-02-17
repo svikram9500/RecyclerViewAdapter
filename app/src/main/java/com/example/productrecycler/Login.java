@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
     private FirebaseAuth mAuth;
     //end declare auth
     SignInButton signInButton;
-    TextView status,uid;
+    TextView status,uid,mystatus;
     ImageView profileimage;
     Button signout,disconnectbtn,facebooksignmove;
 
@@ -120,6 +120,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
         profileimage = findViewById(R.id.userprofiel);
         disconnectbtn = findViewById(R.id.dissconectbtn);
         facebooksignmove = findViewById(R.id.movetofacebooksign);
+        mystatus = findViewById(R.id.mystatus);
     }
 
     @Override
